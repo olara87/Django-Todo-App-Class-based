@@ -1,0 +1,5 @@
+{% extends 'base/main.html' %}
+{% block content %}
+    <h1>Task: {{task.id}} {{task}}</h1>
+    <a href="{% url 'tasks' %}">Back</a>
+{% endblock content %}
